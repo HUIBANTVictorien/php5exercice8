@@ -2,17 +2,14 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>exercice 8 partie 3 php</title>
+    <title>exercice 8 partie 5 php</title>
   </head>
   <body>
     <?php
-    $number1 = 42;
-    $number2 = 69;
-    $number3 = 12;
-    function calculate($number1, $number2, $number3) {
-      return $number1 + $number2 + $number3;
+    $month=['janvier','février','mars','avril','mai','juin','juillet','aout','septembre','octobre','novembre','décembre'];
+    foreach($month as $separate) {
+      echo $separate. '<br/>';
     }
-    echo calculate($number1, $number2, $number3);
      ?>
   </body>
 </html>
