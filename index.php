@@ -6,10 +6,13 @@
   </head>
   <body>
     <?php
-    $text = 'Enfin';
-      for ($number = 200; $number >= 0; $number-=12) {
-        echo $text.'<br/>';
-      }
+    $number1 = 42;
+    $number2 = 69;
+    $number3 = 12;
+    function calculate($number1, $number2, $number3) {
+      return $number1 + $number2 + $number3;
+    }
+    echo calculate($number1, $number2, $number3);
      ?>
   </body>
 </html>
